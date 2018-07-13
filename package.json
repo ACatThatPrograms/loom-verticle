@@ -1,0 +1,16 @@
+{
+  "name": "loom-verticle",
+  "version": "1.0.0",
+  "description": "loom-js VertX integration",
+  "main": "loom-verticle.js",
+  "scripts": {
+    "test": "echo OK",
+    "start": "vertx run loom-verticle.js"
+  },
+  "author": "ACatThatPrograms",
+  "license": "ISC",
+  "dependencies": {
+    "loom-js": "^1.12.2",
+    "vertx3-full": "^3.5.3"
+  }
+}
